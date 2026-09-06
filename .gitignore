@@ -1,0 +1,25 @@
+# Exclure toutes les jpg SAUF les 3 exemples
+static/images/products/*.jpg
+!static/images/products/10826.jpg
+!static/images/products/10827.jpg
+!static/images/products/10828.jpg
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Modèles ML
+*.h5
+*.pkl
+*.model
+
+# OS
+.DS_Store
+Thumbs.db
